@@ -1,0 +1,130 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+     
+}
+/* Body Styling */
+body{
+    background-image: url(../img/Wall.png) ;
+    background-repeat: no-repeat;
+    font-family: 'Luxurious Roman', cursive;
+    background-size: cover;
+}
+/* Header Styling */
+.header{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: -4px;
+    background-color: rgb(64, 65, 61);
+    color: rgb(253, 246, 237);
+    border: 3px solid green;    
+    border-radius: 10px;
+    margin: 15px 2px;
+    padding: 71px 0;
+    text-shadow: 3px 3px 3px rgb(240, 61, 61);
+}
+/* Top Navigation Bar Styling */
+.navbar{
+    background-color: black;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    margin:  5px 4px ;
+    padding: 17px 20px;
+    text-shadow: 3px 3px 3px rgb(240, 137, 93);
+}
+ /* List Item styling */
+   .navbar ul li{
+       list-style: none;
+       display: inline;
+        padding: 13px;
+        font-size: 20px;
+   }
+   /* Navigation Bar Anchor tag */
+    .navbar ul li a{
+        text-decoration: none;
+        color: rgb(224, 75, 75);
+    }
+    /* Navigation Bar Anchor Tag Hover */
+    .navbar ul li a:hover{
+        color: white;
+        text-decoration: underline;
+        font-style: italic;
+    }
+    /* Grid */
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 15px;
+        padding: 8px;
+        
+    }
+     h2, a{
+        margin: 20px;
+        color: rgb(250, 195, 94);
+    }
+    p{
+        margin: 20px;
+        color: rgb(155, 240, 18);
+    }
+    /* H2 tag decoration */
+    h2{
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 2px 2px 2px red;
+    }
+    /* Readmore button decoration */
+     a.readmore{
+        text-decoration: none;
+        background-color: rgb(231, 124, 124);
+        color: black;
+        border: 2px solid #fdf9f8;
+        padding: 5px;
+        border-radius: 20px;
+        float: right;
+        
+    }
+    /* Readmore Button Hover */
+    a.readmore:hover{
+        background-color: #f44336;
+        color: rgb(231, 220, 220);
+        font-style: italic;
+    }
+    /* middle paragraph */
+    .middle{
+        position: relative;
+        border: 3px solid rgb(255, 13, 13);
+        border-radius: 50px;
+        padding:71px 0;
+    }
+    /* side paragraph */
+    .side{ 
+        position: relative;
+        border: 3px solid rgb(235, 4, 4);
+        border-radius: 50px;
+        padding:71px 0;
+    }
+    .read{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+}
+
+/* Footer Styling */
+.footer{
+    background-color: red;
+    text-align: center;
+    font-size: 68px;
+    font-weight: 600;
+    border: 4px solid green;
+    border-radius: 15px;
+    text-shadow: 3px -3px 5px white;
+}
+
+.copy{
+    text-align: center;
+    color: rgb(225, 247, 225);
+    margin: 2px 0;
+}
